@@ -1,0 +1,7 @@
+{
+  "name": "audioTestApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
