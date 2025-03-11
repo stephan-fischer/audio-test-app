@@ -1,20 +1,20 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
+    <ion-toolbar>
+        <ion-title> Audio Test Center </ion-title>
+    </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+    <ion-header collapse="condense">
+        <ion-toolbar>
+            <ion-title size="large">Blank</ion-title>
+        </ion-toolbar>
+    </ion-header>
 
-  <div id="container">
-    <ion-button (click)="speak()">Speak Text</ion-button>
-    <ion-button (click)="recognize()">Recognize Speech</ion-button>
-  </div>
+    <div id="container">
+        <ion-button (click)="music()">Play Music</ion-button>
+        <ion-button (click)="speak()">Speak Text</ion-button>
+        <ion-button (click)="recognize()">Recognize Speech</ion-button>
+        <ion-button (click)="activateAudioSession()">Activate Audio Session</ion-button>
+    </div>
 </ion-content>
