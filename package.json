@@ -28,7 +28,7 @@
     "@capacitor/ios": "7.0.1",
     "@capacitor/keyboard": "7.0.0",
     "@capacitor/status-bar": "7.0.0",
-    "@capawesome-team/capacitor-speech-recognition": "^7.1.0",
+    "@capawesome-team/capacitor-speech-recognition": "^7.1.0-dev.b14a2d4.1741959963",
     "@capawesome-team/capacitor-speech-synthesis": "^7.1.1",
     "@ionic/angular": "^8.0.0",
     "ionicons": "^7.0.0",

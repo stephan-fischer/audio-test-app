@@ -12,7 +12,7 @@ PODS:
     - Capacitor
   - CapacitorStatusBar (7.0.0):
     - Capacitor
-  - CapawesomeTeamCapacitorSpeechRecognition (7.1.0):
+  - CapawesomeTeamCapacitorSpeechRecognition (7.1.0-dev.b14a2d4.1741959963):
     - Capacitor
   - CapawesomeTeamCapacitorSpeechSynthesis (7.1.1):
     - Capacitor
@@ -56,7 +56,7 @@ SPEC CHECKSUMS:
   CapacitorHaptics: 1fba3e460e7614349c6d5f868b1fccdc5c87b66d
   CapacitorKeyboard: 2c26c6fccde35023c579fc37d4cae6326d5e6343
   CapacitorStatusBar: 438e90beeeefa8276b24e6c5991cb02dd13e51bf
-  CapawesomeTeamCapacitorSpeechRecognition: 47ea1d691f11a6f1d3fed9be749acdf035352f3c
+  CapawesomeTeamCapacitorSpeechRecognition: b5c431b0de4b07fbcfd742272d1e1eccb1104677
   CapawesomeTeamCapacitorSpeechSynthesis: 9aaa4d9e2886aef237ae4d69c8a243d916306328
 
 PODFILE CHECKSUM: 5b01aac2a37c7e226a4a6522a09d546273f67b1f

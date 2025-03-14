@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { NativeAudio } from '@capacitor-community/native-audio';
-import { SpeechRecognition } from '@capawesome-team/capacitor-speech-recognition';
-import { SpeechSynthesis, AudioSessionCategory, QueueStrategy } from '@capawesome-team/capacitor-speech-synthesis';
+import { SpeechRecognition, AudioSessionCategory as  AudioSessionCategorySpeechRedcognition } from '@capawesome-team/capacitor-speech-recognition';
+import { SpeechSynthesis, QueueStrategy, AudioSessionCategory } from '@capawesome-team/capacitor-speech-synthesis';
 
 @Component({
     selector: 'app-home',
@@ -63,6 +63,7 @@ export class HomePage implements OnInit {
 
         SpeechRecognition.startListening({
             language: "de-DE",
+            deactivateAudioSessionOnStop: false,
             silenceThreshold: 800
         });
 
@@ -84,7 +85,7 @@ export class HomePage implements OnInit {
     }
 
     async destroyRecognition(): Promise<void> {
-        await SpeechRecognition.stopListening();
+        await SpeechRecognition.stopListening({deactivateAudioSession: false});
         await SpeechRecognition.removeAllListeners();
     }
 
