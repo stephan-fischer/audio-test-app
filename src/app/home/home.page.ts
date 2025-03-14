@@ -63,6 +63,7 @@ export class HomePage implements OnInit {
 
         SpeechRecognition.startListening({
             language: "de-DE",
+            audioSessionCategory: AudioSessionCategorySpeechRedcognition.PlayAndRecord,
             deactivateAudioSessionOnStop: false,
             silenceThreshold: 800
         });
